@@ -8,6 +8,7 @@ body {
     font-family: Consolas, monospace;
     background-color: orangered;
     margin: 0;
+    margin-top: 20px;
     padding: 0;
     text-align: center;
     color: green;
@@ -27,15 +28,14 @@ p {
     color: aqua;
 }
 
-.container {
+.block1 {
     width: 800px;
     margin: 0 auto;
     text-align: center;
     padding: 20px;
-    background-color: black;
+    background-color: #21004e;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     border-radius: 8px;
-    margin-top: 50px;
 }
 
 a {
