@@ -1,3 +1,9 @@
+html{
+    background: black;
+    height: 100%;
+    overflow: hidden;
+}
+
 body {
     font-family: Consolas, monospace;
     background-color: orangered;
