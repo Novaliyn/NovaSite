@@ -56,11 +56,6 @@ a:hover {
     opacity: 0;
 }
 
-.block2 p {
-    color: turquoise;
-    font-size: 45px;
-}
-
 .block2:hover {
     animation: fade 1s;
     animation-fill-mode: forwards;
@@ -75,5 +70,23 @@ a:hover {
     }
     100% {
         opacity: 1;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    body {
+        margin-top: 10px;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+    .block1, .block2 {
+        width: auto;
+        margin: 0 auto;
+    }
+    h1 {
+        padding: 10px;
+    }
+    p {
+        font-size: 1.5em;
     }
 }
