@@ -8,8 +8,10 @@ body {
     font-family: Consolas, monospace;
     background-color: orangered;
     margin: 0;
-    margin-top: 20px;
+    margin-top: 10px;
     padding: 0;
+    height: 100vh;
+    overflow-y: auto;
     text-align: center;
     border-radius: 25px;
 }
@@ -38,7 +40,15 @@ a:hover {
     text-decoration: underline;
 }
 
-.block1 {
+button {
+    background-color: black;
+    border-color: greenyellow;
+    border-radius: 100px;
+    padding: 24px 50px;
+    font-size: 1.5em;
+}
+
+.titleblock {
     width: 800px auto;
     margin: 0 auto;
     text-align: center;
@@ -48,7 +58,7 @@ a:hover {
     border-radius: 100px;
 }
 
-.block2 {
+.hide1 {
     width: 800px auto;
     margin: 0 auto;
     text-align: center;
@@ -56,9 +66,14 @@ a:hover {
     opacity: 0;
 }
 
-.block2:hover {
+.hide1:hover {
     animation: fade 1s;
     animation-fill-mode: forwards;
+}
+
+.links {
+    margin: 0 auto;
+    padding: 20px;
 }
 
 @keyframes fade {
@@ -79,7 +94,7 @@ a:hover {
         overflow-y: auto;
         -webkit-overflow-scrolling: touch;
     }
-    .block1, .block2 {
+    .titleblock, .hide1 {
         width: auto;
         margin: 0 auto;
     }

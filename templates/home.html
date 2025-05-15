@@ -3,18 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nova's Web Site</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" type="text/css">
+    <title>Nova's Website</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='home.css') }}" type="text/css">
 </head>
 <body>
-    <div class="block1">
-        <h1>Welcome! This is a test by Novaliyn!</h1>
-        <p>Trying out HTML and CSS using flask, i want to build on this to actualy code!</p>
+    <div class="titleblock">
+        <h1>Welcome! to a really basic site by Novaliyn!</h1>
+        <p>Im want to work so badly, but im not creative. :p I want to make something magical.</p>
         <p>Learn about <a href="https://en.pronouns.page/@novaliyn">Nova!</a></p>
         <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/0fcf9cb5-68a3-4d07-92f2-256e93956399-profile_image-150x150.jpeg" alt="Nova is cutie"/>
     </div> 
-    <div class="block2">
+    <div class="hide1">
         <p>Nova is a cute and lovely person. Did you know that she is Transfem? :3</p>
+    </div>
+    <div class="links">
+        <button><a href="#" onclick="window.location.href='/rain.html'">Text Rain</a></button>
     </div>
 </body>
 </html>
