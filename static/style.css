@@ -11,7 +11,7 @@ body {
     margin-top: 20px;
     padding: 0;
     text-align: center;
-    color: green;
+    border-radius: 25px;
 }
 
 h1 {
@@ -20,22 +20,13 @@ h1 {
     padding: 20px;
     background-color: blueviolet;
     border-bottom: 2px solid red;
+    border-radius: 100px;
 }
 
 p {
     text-align: center;
     font-size: 2.3em;
     color: aqua;
-}
-
-.block1 {
-    width: 800px;
-    margin: 0 auto;
-    text-align: center;
-    padding: 20px;
-    background-color: #21004e;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    border-radius: 8px;
 }
 
 a {
@@ -45,4 +36,39 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+.block1 {
+    width: 800px auto;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #21004e;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 100px;
+}
+
+.block2 {
+    width: 800px auto;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    opacity: 0;
+}
+
+.block2:hover {
+    animation: fade 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
 }
