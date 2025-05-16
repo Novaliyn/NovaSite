@@ -23,14 +23,14 @@ function draw() {
     context.fillStyle = "#00ff00";
     context.font = `${fontSize}px monospace`;
 
-    for (let i = 0; i < rain.length; i += 0.5) {
+    for (let i = 0; i < rain.length; i ++) {
         const text = characters[Math.floor(Math.random() * characters.length)];
         context.fillText(text, i * fontSize, rain[i] * fontSize);
 
-        if (rain[i] * fontSize > canvas.height && Math.random() > 0.975) {
+        if (rain[i] * fontSize > canvas.height && Math.random() > 0.98) {
             rain[i] = 0;
         }
-        rain[i] += 0.5;
+        rain[i] +=0.2;
     }
 
     requestAnimationFrame(draw);
