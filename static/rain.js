@@ -27,7 +27,7 @@ function draw() {
         const text = characters[Math.floor(Math.random() * characters.length)];
         context.fillText(text, i * fontSize, rain[i] * fontSize);
 
-        if (rain[i] * fontSize > canvas.height && Math.random() > 0.98) {
+        if (rain[i] * fontSize > canvas.height && Math.random() > 0.976) {
             rain[i] = 0;
         }
         rain[i] +=0.2;
