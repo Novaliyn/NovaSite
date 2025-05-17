@@ -9,3 +9,20 @@ body {
     padding: 0;
     height: 100%;
 }
+
+a {
+    color: yellow;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    background-color: black;
+    border-color: green;
+    border-radius: 100px;
+    padding: 8px 20px;
+    font-size: 1.25em;
+}
