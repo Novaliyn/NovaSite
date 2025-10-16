@@ -11,4 +11,4 @@ def rain():
     return render_template('rain.html')
 
 if __name__ == "__main__":
-    app.run(ssl_context=('certs/cert.crt','certs/key.key'), debug=True, host='0.0.0.0', port=6682)
+    app.run(ssl_context=('certs/cert.crt','certs/key.key'), debug=True, host='0.0.0.0', port=443)
