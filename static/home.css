@@ -1,12 +1,12 @@
 html{
-    background: black;
+    background: #000000;
     height: 100%;
     overflow: hidden;
 }
 
 body {
     font-family: Consolas, monospace;
-    background-color: rgb(5, 0, 32);
+    background-color: #000000;
     margin: 0;
     margin-top: 10px;
     padding: 0;
@@ -21,18 +21,18 @@ h1 {
     text-align: center;
     padding: 20px;
     background-color: blueviolet;
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid #ff0000;
     border-radius: 100px;
 }
 
 p {
     text-align: center;
     font-size: 2.3em;
-    color: rgb(0, 255, 0);
+    color: #bf00ff;
 }
 
 a {
-    color: yellow;
+    color: #ffff00;
     text-decoration: none;
 }
 
@@ -41,8 +41,8 @@ a:hover {
 }
 
 button {
-    background-color: black;
-    border-color: green;
+    background-color: #000000;
+    border-color: #bf00ff;
     border-radius: 100px;
     padding: 24px 50px;
     font-size: 1.5em;
@@ -53,8 +53,8 @@ button {
     margin: 0 auto;
     text-align: center;
     padding: 20px;
-    background-color: #21004e;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background-color: #000000;
+    box-shadow: 0 0 10px #000000;
     border-radius: 100px;
 }
 

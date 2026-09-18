@@ -15,10 +15,10 @@ const columns = Math.floor(canvas.width / fontSize);
 const rain = Array(columns).fill(1);
 
 function draw() {
-    context.fillStyle = "rgba(0, 0, 0, 0.075)";
+    context.fillStyle = "#00000010";
     context.fillRect(0, 0, canvas.width, canvas.height);
 
-    context.fillStyle = "#0F0";
+    context.fillStyle = "#bf00ff";
     context.font = `${fontSize}px monospace`;
 
     for (let i = 0; i < rain.length; i++) {
